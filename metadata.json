@@ -1,0 +1,21 @@
+import { ReactNode } from 'react';
+
+export interface CaseDetail {
+  title: string;
+  location: string;
+  desc: string;
+  tags: string[];
+  image: string;
+  category?: string;
+  details: {
+    chargingPiles: string;
+    energySaving: string;
+    feedback: string;
+  };
+}
+
+export interface PartnerCategory {
+  title: string;
+  iconName: string;
+  partners: string[];
+}

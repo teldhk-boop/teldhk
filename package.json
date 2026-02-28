@@ -1,0 +1,555 @@
+import { CaseDetail, PartnerCategory } from './types';
+
+export const domesticCasesZh: CaseDetail[] = [
+  {
+    title: "深圳特來電國際會展中心充電站",
+    location: "廣東省深圳市",
+    desc: "位於深圳國際會展中心，為參展商及公眾提供大規模、高效率的公共充電網絡服務，展現特來電強大的場站運營能力。",
+    tags: ["公共充電網", "會展中心", "大規模場站"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpPK3WQK6qMcouv8CNQAQIwP946L9T_9RuOMItzmw-2pQjebSDkbhkBcBb3iRAM9of5qA8CBN_9YceVwdPvvFhdnJhooFBIpoxYtUAtmeWDGCK1CYKNCV73Pmbukemr2W2hV3sHqeQceZrog5WGTsEjJd8GDI?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共快充站",
+    details: {
+      chargingPiles: "終端數量 188個",
+      energySaving: "保障大型展會期間的高頻充電需求",
+      feedback: "充電速度快，車位充足，服務體驗極佳。"
+    }
+  },
+  {
+    title: "成都天府國際機場充電站",
+    location: "四川省成都市",
+    desc: "為成都天府國際機場提供航空物流及旅客車輛的充電服務，保障機場新能源車輛的高效運轉。",
+    tags: ["民航物流", "機場配套", "高效運轉"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfaTDACwOXZhWf3fMXNd9bHjvEEABkqaaFdg2PIvWacSZlooRRN1BwnwEl5FH_JIuIpemavi1gRnFQTGUuHNKeVxXcn8MhheDLnrwwN7RiD8BwoLOx7aQKxRx_RA3wEcNO9eRN2nwLYPgZIEYuR2VbF9sFNLg?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "空港",
+    details: {
+      chargingPiles: "終端數量 639個",
+      energySaving: "推動綠色機場建設，減少地面碳排放",
+      feedback: "完美適配機場高強度的運營節奏。"
+    }
+  },
+  {
+    title: "拉薩市新能源汽車充電站蓮花公園站",
+    location: "西藏自治區拉薩市",
+    desc: "在高海拔地區建設的公共充電站，克服了高原氣候挑戰，為拉薩市新能源汽車提供穩定的能源補給。",
+    tags: ["高海拔", "公共充電", "高原氣候"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdedQHcXbxxn7sUlAwPWb0BF-m4Q9kcprnbRIBAkiKLyDuJrRcBnFvSOEhHWerPp2jPHFgviV2M_yYep0DpaVXTVU7iafE5fwbn9ME_-qCzbtsK8ZCCCO4uXoQVZ7pL9OCFCV5ut0__df4V3PP4S2jDhrH70io?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共快充站",
+    details: {
+      chargingPiles: "終端數量 16個",
+      energySaving: "保護雪域高原生態環境",
+      feedback: "設備在缺氧低溫環境下依然保持高效穩定。"
+    }
+  },
+  {
+    title: "上海11路/26路公交智能充電站",
+    location: "上海市",
+    desc: "為上海市區核心公交線路提供專屬充電服務，採用智能調度系統，保障公交車輛的高效運營。",
+    tags: ["公交專用", "智能調度", "核心線路"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqrbTn5QoJNAoZT4grjUvxEy4W0ztyt5okJQZuGZQU61EYrxH_uRIi74jxcb_RPcHxtlfjgQGr7JOreAjvFTJJzjsnKUdYPTdxP1D5HjIaWtvuNxZ_V5onnVMWsR7fwctmi0Ga_SsLAyf_YXyBlhjLEr16gbg?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共交通",
+    details: {
+      chargingPiles: "終端數量 12槍+12弓",
+      energySaving: "保障城市公共交通零排放運行",
+      feedback: "智能調度系統大幅提升了充電效率。"
+    }
+  },
+  {
+    title: "上海奉賢公交南橋充電站",
+    location: "上海市奉賢區",
+    desc: "奉賢區重要的公交充電樞紐，支持大規模公交車隊的日常充電和維護，是區域綠色交通的基礎保障。",
+    tags: ["公交樞紐", "大規模車隊", "綠色交通"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcw9SLdudTUbWiQc5lkvRuqIIp331bihEooJPYvHMM2zAlYmeOhD19yFsg4tzl94-whRqxFH4kG8eaCa-QlpBjeHWKhCaJFavoRgaRNxepwb5RaknwEQ-2a780-GJmb9ypdIeG5RihSIlWj66uj8GN0YcwapnY?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共交通",
+    details: {
+      chargingPiles: "終端數量 5弓+10槍",
+      energySaving: "降低公交運營成本",
+      feedback: "設備穩定可靠，滿足了車隊高強度運營需求。"
+    }
+  },
+  {
+    title: "武漢京東亞洲1號充電站",
+    location: "湖北省武漢市",
+    desc: "為京東物流亞洲一號園區提供的大型物流車充電解決方案，保障龐大物流車隊的高效運轉。",
+    tags: ["京東物流", "大型園區", "高效運轉"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXebTaXNG-Kt8KZg3WtjPxuXK9oVty4j1uDdI9SfjLm9MMZfIvL6EnAIhai0qo7d5shRabGAu9cX7Z9tyUfGHjj_AECVpVmsFnIIfBSgbysqixwfa9sTxjiSji32Tvlzqt57ZkSYQM5cHM4rmhhkSqwpMCMMdZc?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "物流",
+    details: {
+      chargingPiles: "終端數量 63個",
+      energySaving: "大幅降低物流園區運營成本",
+      feedback: "充電效率高，完美支撐了園區的高強度物流作業。"
+    }
+  },
+  {
+    title: "杭州蕭山國際機場充電站",
+    location: "浙江省杭州市",
+    desc: "為杭州蕭山國際機場提供全面的充電服務，涵蓋旅客停車場及機場內部特種車輛充電需求。",
+    tags: ["國際機場", "全面覆蓋", "特種車輛"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdPwx0mCNegUrd_RcaJ78g3SuPmDveLlUKJ29rZB1_nmsJpRN76CnX8IqIkMFCb11GQ7HV6-035Oj2IqYPSpYHVN-FNobkN4vAfzQ7Cbwi73YQoHrSbEt7Z1ETNx_MxTl1oBsJfhTxXsZSo-7-fLggo48XaIg?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "空港",
+    details: {
+      chargingPiles: "終端數量 52個",
+      energySaving: "打造綠色航空樞紐",
+      feedback: "極大滿足了機場複雜多樣的充電需求。"
+    }
+  },
+  {
+    title: "廣州白雲國際機場充電站",
+    location: "廣東省廣州市",
+    desc: "在廣州白雲國際機場建設的大型充電樞紐，為往來旅客、網約車及機場工作車輛提供高效能源補給。",
+    tags: ["大型樞紐", "白雲機場", "高效補給"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXelHbMVx09b_7hJSDIhwMybw0Xz-gRfj5-IAlhSw21xk-y6UBhczAP3MVmfhK3zN2AthMyhQFVvOu8Ht26-tLbz217UPRdfvF3H7w82j5r9ooLkegos7V0Vs_M5qwxT-ITt3QF2WZQ6wZ_Zrxth7E8XgrnbAdY?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "空港",
+    details: {
+      chargingPiles: "終端數量 88個",
+      energySaving: "支持華南地區最大航空樞紐的綠色運營",
+      feedback: "充電設施完善，極大方便了機場出行。"
+    }
+  },
+  {
+    title: "上海強生漕寶停車場生態復用站",
+    location: "上海市",
+    desc: "結合停車場空間進行生態復用，配置多台直流快充終端，為出租車及社會車輛提供高效的充電服務，實現土地資源的最大化利用與綠色升級。",
+    tags: ["生態復用", "停車場", "資源利用"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXd6xfBhDApVtabzF8UiBQN_zSBxVQMRQF2zm89ulzxSxRJIkx78P6E_CT9FVyTmCMbkkXlCNfDDe5pIi1WVZ8enFEhYYMtTbCi6fGukIFbvzSiozm1W1fX8yO1eCLs2Wk3k469iigygKJL-YsxFbJzW1skkWiU?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共交通",
+    details: {
+      chargingPiles: "終端數量 40個",
+      energySaving: "提高土地資源利用率，助力城市節能減排",
+      feedback: "極大緩解了市區充電難題，場站環境優美。"
+    }
+  },
+  {
+    title: "四川省九寨溝自然保護區充電站",
+    location: "四川省阿壩州",
+    desc: "位於世界自然遺產九寨溝景區，配置環保型直流快充終端，為景區環保車輛及遊客新能源車提供綠色能源補給，保護脆弱的生態環境。",
+    tags: ["自然保護區", "綠色旅遊", "生態保護"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFRw1C5Zbdb5I9OvoIHtgQ7-LU1JAPwUeq0__c6xr-Kcd457q4T156rQVNX5Sha4N5JTWl0SDjg-Kwzr2376JQf_OaIeC1lEgaBrb7YeMOo9Pb5RYpOvEIrIy8iF3KHL_Z1MPZ1aNN4Z2gYm0ihQfrBs0SmIY?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共交通",
+    details: {
+      chargingPiles: "終端數量 85個",
+      energySaving: "助力景區實現零排放目標",
+      feedback: "設備與自然環境和諧共存，運行穩定可靠。"
+    }
+  },
+  {
+    title: "成都公交充電網",
+    location: "四川省成都市",
+    desc: "構建覆蓋成都市區的公交充電網絡，配置分佈式公交專用充電網絡，實現公交車輛的智能化調度和高效充電，全面助力成都公交電動化。",
+    tags: ["城市充電網", "公交電動化", "智能調度"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfSTZmVI4ppDbBi1PQbVUzN18-mo36cQ8jvwdq-64oo85une7KvxgFCzopONfX9sTNqYAyxSMkVdGRwSLBAiQQxboR4vc-u8eZ5F-rRutRLDuWVPSHnEdRx4xi6kpPif2SpamT312xkKZdRHsJu0vSaY59Egjk?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共交通",
+    details: {
+      chargingPiles: "終端數量 5800個",
+      energySaving: "全面提升城市公共交通能效",
+      feedback: "充電網絡佈局完善，極大提升了公交運營效率。"
+    }
+  },
+  {
+    title: "昆明高鐵南站充電站",
+    location: "雲南省昆明市",
+    desc: "位於昆明高鐵南站的大型公共快充站，為高鐵旅客及周邊居民提供便捷的充電服務，助力綠色出行。",
+    tags: ["高鐵樞紐", "公共快充", "綠色出行"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXez4ifkQCOLHFz7FkOUMlzf5AWkCD_qx9l0dp7X8zZYe4ThXqzmRect_ECtiD1-vW3MNtYYPqq-iODv-W4sV6CMqaZjEA0xynkw3wlSDk7rIFPKMcib-AiFyIhir5VwhRXYMcYNoIXzywQ63mOz21LeMeGT2zo?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共快充站",
+    details: {
+      chargingPiles: "終端數量 53個",
+      energySaving: "有效提升高鐵樞紐的綠色配套服務能力",
+      feedback: "充電速度快，極大方便了高鐵換乘旅客。"
+    }
+  },
+  {
+    title: "上海寶山區江場西路1737充電站",
+    location: "上海市寶山區",
+    desc: "位於上海市寶山區的公共快充站，為周邊社區及商圈提供高效的充電網絡覆蓋。",
+    tags: ["城市快充", "社區覆蓋", "高效網絡"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcMVR3tW6VvZXMDHUWufcH3vbprVXdZFJPCzFtgoP1D2XytgLp9-cSC1x9AsrZygekA4qOZebaKJqZL24uL7p1gMpQ250_3UeKmojdIWWI-2vlNRGuzsj5S_wWau8Iln8f0tRTtHxbm0hBpT8zgM_MQVGnivA?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共快充站",
+    details: {
+      chargingPiles: "終端數量 96個",
+      energySaving: "推動城市綠色交通發展，降低碳排放",
+      feedback: "終端數量多，充電無需排隊，體驗極佳。"
+    }
+  },
+  {
+    title: "上海馬陸超級充電站",
+    location: "上海市嘉定區",
+    desc: "上海馬陸超級充電站，配備大批量快充終端，為城市物流及私家車提供強大的能源補給支持。",
+    tags: ["超級充電站", "大批量終端", "能源補給"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcOPh18_4CjrZj380xm9AvAeHe01MOq1-6aYU7Se88kAXoCFSRwRMPJ6aLQUwBdTJCGM0lQEGCP6H7wX4yfqCF4F8Wc2zrD0ZJ0YAIsF7sv7JPJc37xnSKjIG6qSYGwZjkG59psVhS50-HP-NObdU5cEBLVxEw?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共快充站",
+    details: {
+      chargingPiles: "終端數量 103個",
+      energySaving: "顯著提升區域新能源車輛的運營效率",
+      feedback: "場站規模大，充電效率高，服務設施完善。"
+    }
+  },
+  {
+    title: "上海經緯置業充電站",
+    location: "上海市",
+    desc: "為大型住宅社區提供便捷的公共充電服務，滿足社區居民日常充電需求，有效緩解小區充電難題。",
+    tags: ["住宅社區", "便民服務", "地產配套"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQffa_uAtqvcCHtMVkQn1tyUVHPIWzozuKn_0XTxP8lC81-Gxdp6YbDxvzXz7fzHte9LXBxNhO54kFYcvNF76IIO-70KGfV04O7JtMeAQ95ayh6w17PeLHrkozrQevYwvWrjSNwIlqo746_s_iL1mANVJ5FT0?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "地產",
+    details: {
+      chargingPiles: "終端數量 140個",
+      energySaving: "推動社區綠色出行",
+      feedback: "極大方便了小區居民的新能源車充電需求。"
+    }
+  },
+  {
+    title: "台州市天悅年華小區充電站",
+    location: "浙江省台州市",
+    desc: "為天悅年華小區居民提供專屬的充電基礎設施，提升小區物業服務品質與居民生活便利性。",
+    tags: ["小區充電", "物業服務", "綠色社區"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdfSHaEMGoHnbbeufFZRtKsbxhP3g53OV0SlvX5q4QRQkH8-NTs0WHiZbwQOlPCLbl_L_L_rhOxPkBhpEHaRdYyMG1TpenzYBt6_G57LcnSPr7XYgYtVJc6wGe_tP2d9tjtgfIYY1FnED1N_oeA1y0ft96xRtM?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "地產",
+    details: {
+      chargingPiles: "終端數量 36個",
+      energySaving: "完善社區新能源配套",
+      feedback: "充電設施安全可靠，居民使用滿意度高。"
+    }
+  },
+  {
+    title: "上海方舟苑小區",
+    location: "上海市",
+    desc: "針對小區引入的充電設施項目，解決了方舟苑小區居民的充電痛點，助力小區綠色升級。",
+    tags: ["住宅小區", "社區改造", "便民充電"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdq0CUPtCnR8rVGYHr-JfGE_U3kME6QknyxsfJTw4ThofZQ7IEhhQdVhFh89x5EjeBQg5rFQwmDGSUu9j7GJkIivwL_iMXyxgowqdQioRmjD863T7AM8qLhDLr3Ud0rBUns7aorFffl46TP9zltH0eUwGakbHg?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "地產",
+    details: {
+      chargingPiles: "終端數量 7個",
+      energySaving: "促進小區新能源汽車普及",
+      feedback: "切實解決了居民的燃眉之急。"
+    }
+  },
+  {
+    title: "安陽豐和物流充電站",
+    location: "河南省安陽市",
+    desc: "為安陽豐和物流園區提供高效的充電服務，滿足物流車輛高頻次、大功率的充電需求。",
+    tags: ["物流園區", "高效充電", "物流車隊"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXez7NoC7XRct5N3zjZdoZkiYfcX8oQPPbg5HnvaoywM3ZIJOYKOwdZjk0WJDSxWRh-4mhIL_VmdzEcMdb3YpSIcwymKeuBfpPmS_uRpdTeOKKTcfDEbiMCKd9NJRGAF42OfLRZFIwAFA8cGGxudWC2BDYnO8g?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "物流",
+    details: {
+      chargingPiles: "終端數量 20個",
+      energySaving: "降低物流運輸成本，推動綠色物流",
+      feedback: "充電速度快，設備運行穩定。"
+    }
+  },
+  {
+    title: "蒙能錫林浩特電廠重卡充電站",
+    location: "內蒙古錫林郭勒盟",
+    desc: "為蒙能錫林浩特電廠的重卡運輸車隊提供專屬充電服務，助力重工業綠色物流轉型。",
+    tags: ["重卡充電", "電廠配套", "綠色物流"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdwmS1G0zpPxiAI8JkRT8o0-ChHBfucapU28Zxhplk3d4wst5Lmke23TX7ScG1y73GAuH4Li5knzf_7lnEayj8-kgoKRlohCl4epR27_BqqlMhRQyEcf6O2qWTBgM7SvuJR8BhGIke8vss7J4_nu6f1XMlX38w?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "物流",
+    details: {
+      chargingPiles: "終端數量 8個",
+      energySaving: "大幅減少重卡碳排放",
+      feedback: "適應高寒氣候，保障重卡高效運轉。"
+    }
+  },
+  {
+    title: "唐山縱橫鋼鐵充電項目",
+    location: "河北省唐山市",
+    desc: "為唐山縱橫鋼鐵廠區內的運輸車輛提供充電解決方案，推動鋼鐵行業低碳發展。",
+    tags: ["鋼鐵廠區", "運輸車輛", "低碳發展"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzozusJHJzt2k-_dfOeTo0El3Haw1_5WGZC4WbBn_uE8r9390ioONypC-bdk7MKB7JxLzqHhlFfG172IAhYn2G5p4SpE94GuGRpgiktnWbELo6O6g8f6sPVDw_tQffisybtPME8qQoJlajMfYHgqnOZ8vSDuU?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "物流",
+    details: {
+      chargingPiles: "終端數量 雙槍單樁10台",
+      energySaving: "助力鋼鐵企業實現綠色轉型",
+      feedback: "設備耐用，完全適應廠區惡劣環境。"
+    }
+  },
+  {
+    title: "廣西北部灣港",
+    location: "廣西壯族自治區",
+    desc: "在廣西北部灣港口部署自動化充電系統，為港口物流車輛及設備提供智能、高效的能源補給。",
+    tags: ["港口碼頭", "自動化充電", "智能補給"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXchrSIBEC-ajf9QjsVb5WhOucS6eKxYwrSJCz468uhvlYZ4QN9wZ3zRHyTbGXbp1uLjcPO6Hh8SQ2-SeDXRbRBaAiwAQZOgf0tvR_Mwl_LvPMftTSodYQ82fxo18usM4tybHCJ8M7QZ1vtyFwgocFoNOINA9Bw?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "物流",
+    details: {
+      chargingPiles: "終端數量 6套SCD自動充電系統",
+      energySaving: "推動港口物流電氣化與智能化",
+      feedback: "自動化程度高，大幅提升港口運營效率。"
+    }
+  },
+  {
+    title: "寧波港碼頭項目",
+    location: "浙江省寧波市",
+    desc: "為寧波港碼頭的集裝箱卡車及物流車輛提供大規模充電服務，助力打造綠色智慧港口。",
+    tags: ["寧波港", "集卡充電", "智慧港口"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBc5fuDiDg1KKY1CNAErof-R7-wc_iCdm4i3gDN-giuxZWEoJ5CZ845KYc36KA0vgxTPP6w10I0DNn792d0mHxyZilawFfFs4szeYEFrTsPPYrWBrilaaFIKertPZAQh6-BDGvxaFoLqUmKHA8jKeGs-4lTw?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "物流",
+    details: {
+      chargingPiles: "終端數量 96個",
+      energySaving: "顯著降低港口物流碳排放",
+      feedback: "充電設施規模大，滿足港口高強度作業需求。"
+    }
+  },
+  {
+    title: "上海浦東國際機場",
+    location: "上海市",
+    desc: "為上海浦東國際機場提供全面的充電基礎設施，涵蓋旅客停車場及機場特種車輛充電需求。",
+    tags: ["浦東機場", "全面覆蓋", "特種車輛"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdcfpW-HdKeeX3qOGx2ZYzqSXxibKKtfCtdBmWdFBCUBj0Buy6ARR33LlNOoycucVuQMlVeDagqPRDL6rWROGKHVrMCFK595WhqCICXJylDbjwVyewoORHfWNwmUeq0VI2Acv97cZDBb4G9ryaVIrrMeddvWlk?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "空港",
+    details: {
+      chargingPiles: "終端數量 52個",
+      energySaving: "打造綠色航空樞紐",
+      feedback: "極大滿足了機場複雜多樣的充電需求。"
+    }
+  },
+  {
+    title: "北京大興國際機場南航基地",
+    location: "北京市",
+    desc: "為北京大興國際機場南航基地的航空物流及工作車輛提供高效的充電服務，保障機場運營。",
+    tags: ["大興機場", "南航基地", "航空物流"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdtsMDPYRhgz9eEQrE7qSPnnUCE6ex4fe40pV3RMYW2yPTwy03rLD7zcHQ8aYGlgCQDsL-cgMlgS1_Mq6kkmEUXCf2f7-uZSPQrrS1RMI1x_eeB7lyhhs0RYCBE9nkAwsZczUeYajYMwYhwL9_KoGpYvqDbLkc?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "空港",
+    details: {
+      chargingPiles: "終端數量 71個",
+      energySaving: "支持現代化機場的綠色運營",
+      feedback: "充電設施完善，服務體驗極佳。"
+    }
+  },
+  {
+    title: "青島特銳德園區智能微網充電站",
+    location: "山東省青島市",
+    desc: "特銳德園區內的智能微網充電示範項目，集成了群充、特惠充及V2G系統，打造企業園區綠色微電網標杆。",
+    tags: ["智能微網", "V2G系統", "企業園區"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcXkMCDRX8BycnI6VQRYyagmonBpcyomwM-kL99A3otil-YSATeFl379S8dWlArsfraIwojcx9M1e9mMEYJqwV-1oEGd2j01--5CjhcDneq7wNKvsBcLzkN6ZF47AELWunt5DEB_eAq54SPzP3dJjQ_1UaB_vE?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "地產",
+    details: {
+      chargingPiles: "終端數量：2組群充系統、2組特惠充、1組V2G系統，共28個終端",
+      energySaving: "實現園區能源智能調度與高效利用",
+      feedback: "微網系統運行穩定，展現了強大的技術實力。"
+    }
+  },
+  {
+    title: "保定低碳公園智慧車棚",
+    location: "河北省保定市",
+    desc: "保定低碳公園內的智慧車棚項目，融合光伏、儲能與充電設施，為遊客及周邊居民提供綠色出行保障。",
+    tags: ["低碳公園", "智慧車棚", "光儲充"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXforw6RXcq6TLVY-n49fmS5jl5I43ln0xdiKkGnoly4gAtxiLKk7xgC9u8A13-XFVoin942yL5QG2p2_IHLZbJ-bK26jCGepbBX9VBwQYRg0w4kTIBuQUu2txVEddQNAxG-6qkgfcgCXnk7fOcbr9_11fUFRRU?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "微網",
+    details: {
+      chargingPiles: "場站終端數 8個",
+      energySaving: "場站規模：光伏 15kWp，儲能 20kWh，配電 200kVA",
+      feedback: "綠色環保，與公園景觀完美融合。"
+    }
+  },
+  {
+    title: "深圳國際低碳城光儲充放一體化項目",
+    location: "廣東省深圳市",
+    desc: "深圳國際低碳城的光儲充放一體化示範項目，展現了先進的微電網技術在城市低碳發展中的應用。",
+    tags: ["低碳城", "光儲充放", "一體化"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeOd_Fg2EX8PD4LPw9CmaIXhQHJTFVzGAWqE7eUy3lGly98-gZHtmyxTc1LtjZoUvbytsMEPUMq06dlvFrPXwLHz9gkIVeKXeEfvM5BxCFZjT0Hl-Nuqa_Vuur2yRbSdXBRESqBDiPfcwM-LKgFnh6t2WmSL4E?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "微網",
+    details: {
+      chargingPiles: "終端數 6個",
+      energySaving: "場站規模：配電 240KVA，光伏 110kWp，儲能 234kWh，放電 360kW",
+      feedback: "系統集成度高，運行效率卓越。"
+    }
+  },
+  {
+    title: "上海基金小鎮智慧車棚",
+    location: "上海市",
+    desc: "位於上海基金小鎮的智慧車棚，結合光儲充技術，為金融園區提供清潔、高效的能源服務。",
+    tags: ["基金小鎮", "智慧車棚", "金融園區"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcxeV2c7Mnsbns1o1zCAl4gE1pEHt8OvvkvhEPYJV4Zv6vNY5tU--crAIndy8vb_cgGWLJ4ZqyzM1ljyMhGHJqXRRNJ9raNPU_0Bhz0pgeB4Si1nd9IFFv2fbhIowKYrmOCq6VDWX8tjSDvsk1ceLqklTHMjGA?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "微網",
+    details: {
+      chargingPiles: "終端數 8個",
+      energySaving: "場站規模：光伏 13kWp，儲能 20kWh，配電 80kVA",
+      feedback: "設計現代，滿足了園區高端商務人士的充電需求。"
+    }
+  }
+];
+
+export const hongKongCasesZh: CaseDetail[] = [
+  {
+    title: "大嶼山竹篙灣粵車南下充電站",
+    location: "香港大嶼山竹篙灣",
+    desc: "為配合「粵車南下」政策，於大嶼山竹篙灣設立的充電站，提供便捷的充電服務，滿足跨境及本地電動車的充電需求。",
+    tags: ["粵車南下", "公共充電", "跨境服務"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc_O2qD5m2Kf5t8Z-4FWGmhyOCEkINV4UvK9GT_VTWEg_rzQzvV5xvrcaK43aK_i_IRtKeu4hu9dKDOrvCyWk3kSpXSVB5fjXKBn22PYA8IjuhZxbLnfbynhrg6RmyWYsNpSgIZjI-_w8CsqvglIuAFiA_-Tvc?key=7ewXKUOIU8nU-qIj2J_ImQ",
+    category: "公共快充站",
+    details: {
+      chargingPiles: "終端數量 9個",
+      energySaving: "支持粵港澳大灣區綠色交通互聯互通",
+      feedback: "地理位置優秀，極大地方便了粵港兩地往返的電動車主，充電體驗高效且穩定。"
+    }
+  }
+];
+
+export const internationalCasesZh: CaseDetail[] = [
+  {
+    title: "哈薩克斯坦公共充電站",
+    location: "哈薩克斯坦",
+    desc: "在哈薩克斯坦開展的公共充電基礎設施建設項目，為當地新能源汽車市場的發展提供有力支撐，推動中亞地區綠色出行。",
+    tags: ["中亞市場", "公共充電", "基礎設施"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9OVCkeeVn39uVX74rGaDv2BCCPHCq56LVpzwMw_WpAK8UZdOETiqjeo8eGp76Mennd00JprcGad7549xEFESw4CaNyno9Hqtv4oyAKF_LMaL7sWMZzai14Sh8pQnBWNzkpMmoOQ?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "多種規格充電終端",
+      energySaving: "推動當地新能源汽車普及，減少化石能源依賴",
+      feedback: "為當地新能源汽車的推廣起到了關鍵作用。"
+    }
+  },
+  {
+    title: "馬來西亞公共充電站",
+    location: "馬來西亞",
+    desc: "位於馬來西亞的公共充電站項目，針對熱帶氣候特點進行設備優化，為當地電動汽車提供穩定高效的充電服務，助力東南亞綠色出行轉型。",
+    tags: ["東南亞市場", "熱帶氣候適應", "公共充電"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfGW3uqcPbjKpHuS_sAbFFa70wGcY0lwVFSjQuumaRAROMMLitHGL2Ld5O3cGJDmdqM3T64m_28uJo62DIiGyOWuGjAfQ5mx63M8KjQXoh4l7aH6p7NQsdREwwM2lzqoKxUU1QF?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "適應高溫高濕環境的定制化充電樁",
+      energySaving: "助力馬來西亞綠色交通發展",
+      feedback: "設備在炎熱天氣下運行穩定，服務響應迅速。"
+    }
+  },
+  {
+    title: "俄羅斯公共充電站",
+    location: "俄羅斯及周邊俄語區",
+    desc: "針對高緯度地區極寒氣候，特來電部署了具備超強耐候性的充電設備。設備在-30℃至-50℃的極端低溫下仍能穩定運行，為俄羅斯及周邊俄語區國家提供可靠的能源補給。",
+    tags: ["高寒環境", "極端氣候", "俄語區"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXfcppXj8hk0mQNFGiE9uy5nra_il10I5Jg8O-e6aqDBVLeGIIaSF1cOGTMIPFJae_VCd7hTuBpX-vl4umCNQGWyCicbjZki6QxnDTHBbwdhDqhGUtQ_su0Bg7NZmdt1pHieqvWKzQ?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "耐低溫特種充電設備",
+      energySaving: "保障極寒條件下電動汽車的正常使用",
+      feedback: "在極端低溫下依然能正常充電，解決了我們的後顧之憂。"
+    }
+  },
+  {
+    title: "卡塔爾公交充電站",
+    location: "卡塔爾",
+    desc: "為卡塔爾公共交通系統提供定制化充電解決方案，適應中東地區高溫氣候，保障公交車隊的高效運營。",
+    tags: ["公共交通", "中東市場", "高溫適應"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXeC2qKO6cob-44QK2pcnki0DG81MDxt0fD4BDbONYqKKeAqmeRtQUufrI5tDhN_GzKRRZlUKec0BCMAVB9dH3x_Cc4lpkJk8azll1GBc8X04tXkGVDoJOVtZ9oz3rtB7uaWZrq_?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "大功率公交專用充電終端",
+      energySaving: "助力卡塔爾公共交通綠色轉型",
+      feedback: "設備耐高溫性能優異，保障了公交系統的穩定運行。"
+    }
+  },
+  {
+    title: "英國倫敦巴士充電站",
+    location: "英國 倫敦",
+    desc: "為英國倫敦公共交通系統提供定制化充電解決方案，保障純電動巴士車隊的高效運營，助力歐洲綠色公共交通發展。",
+    tags: ["歐洲市場", "公共交通", "巴士充電"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXc21PMziKytjrtmOS1pNPv5V3gx5UlEeAxCXlUu9efXWswHmUf1OYPv74Ee-GFeqaO0g8l93kbg0bWzbsghTwpZ1hGo4pLNpMHXe5DmeImcComjVUSfF9-mLWmZZWpwiFziBcz2?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "大功率公交專用充電終端",
+      energySaving: "支持倫敦實現零碳公共交通目標",
+      feedback: "與巴士系統完美兼容，充電效率高。"
+    }
+  },
+  {
+    title: "中車新西蘭巴士項目",
+    location: "新西蘭",
+    desc: "與中車合作，為新西蘭電動巴士提供配套的充電基礎設施，助力當地公共交通系統的電動化升級。",
+    tags: ["電動巴士", "海外合作", "基礎設施"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLiGzMrqNKYJidd31oDGpXvMcwwvc9MDtvcgE1KrjseT4zSWvnTeKS64KxNcmM3KF4Sc-3rM8toZbzF8Wil73ghw1pY_RWzpklmH8JuRqs7bnWaoPVpMyTVMgznXkJQwrNhey0YA?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "大功率直流快充終端",
+      energySaving: "支持新西蘭實現零碳公共交通目標",
+      feedback: "與巴士系統完美兼容，充電效率高。"
+    }
+  },
+  {
+    title: "德國寶馬總部實驗室設備",
+    location: "全球多地",
+    desc: "為寶馬品牌提供專屬的充電站建設服務，打造高品質的充電體驗，滿足高端品牌車主的充電需求。",
+    tags: ["品牌專屬", "高端體驗", "全球佈局"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqYoklehHXNTatweCKDSprnB2wCG8w53FCxcg0p8swqY8GTuJQkyrJRrBeXmK7loFFfWPnCIlgaHGmQJPSAUhxNwyA2kk3ZaN218AdmXXxio0-qyl4vgL6h1OxEfUtJrKDE_IU?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "定制化高品質充電終端",
+      energySaving: "推動高端新能源汽車的普及",
+      feedback: "設計精美，充電體驗符合品牌定位。"
+    }
+  },
+  {
+    title: "澳大利亞礦山項目",
+    location: "澳大利亞",
+    desc: "針對澳大利亞礦區的特殊環境，提供堅固耐用的充電設備，為礦區電動工程車輛提供可靠的能源支持。",
+    tags: ["礦區應用", "特種車輛", "堅固耐用"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXestGoJe_2_qUpfwYhPl78XVURZE_n0sV40bLA6TLbHylMchp-Lj5yBqJB6Phbm-QgSB6Y5BW5oSv_H0WuJId6PdbsazVOMqILh4c5hGsmznHkPR-FRfUi_VpyqVA6dFTgefsCKqw?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "防塵防震特種充電終端",
+      energySaving: "助力傳統礦業實現綠色低碳轉型",
+      feedback: "設備在惡劣的礦區環境中依然表現出色。"
+    }
+  },
+  {
+    title: "烏茲別克斯坦項目",
+    location: "烏茲別克斯坦",
+    desc: "在烏茲別克斯坦開展的充電基礎設施建設項目，為當地新能源汽車市場的發展提供有力支撐。",
+    tags: ["中亞市場", "基礎設施", "新興市場"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXe5GpE2ql7Awbm_kRYzBbRlre4k1S8sx7JQLBmKV0vbw5FZE6CmUUbGnoNdtYwqM5jFzxFo6MTcRQvUT_hjPO3hMJFAn3XaPrukvYcq-skmn9l0-aMJNvoSRHjOed7NeWMvZW47Hg?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "多種規格充電終端",
+      energySaving: "推動當地能源結構優化",
+      feedback: "為當地新能源汽車的推廣起到了關鍵作用。"
+    }
+  },
+  {
+    title: "厄瓜多爾項目",
+    location: "厄瓜多爾",
+    desc: "在厄瓜多爾部署的充電站項目，致力於改善當地充電網絡，為南美地區的綠色出行貢獻力量。",
+    tags: ["南美市場", "充電網絡", "綠色出行"],
+    image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXdgspcTCTnMwvtErWB11Jj-bCLgvVsgv9bUaE63L8KmZPvGtM6hJZZor5yQOYGOy86qmDWS3Tz71WRsP7FgSni69Y5gNtQjr-I0giM2dQaDxhdQXSZYMOAyvX-nXIGWzvXfQb_r5w?key=SIyLmeyd_R4-mtm9cVIzJA",
+    details: {
+      chargingPiles: "公共充電終端",
+      energySaving: "促進南美地區可持續發展",
+      feedback: "充電站的建設極大提升了當地的充電便利性。"
+    }
+  }
+];
+
+export const partnerCategoriesZh: PartnerCategory[] = [
+  {
+    title: "電力",
+    iconName: "Zap",
+    partners: ["國家電網", "中國南方電網", "國家電投", "中電源動"]
+  },
+  {
+    title: "車企",
+    iconName: "Car",
+    partners: ["保時捷", "寶馬", "路特斯", "奔馳", "大眾", "沃爾沃", "福特", "廣汽", "比亞迪", "上汽", "一汽", "奧迪", "蔚來", "小鵬", "理想", "極氪", "零跑", "嵐圖", "極狐", "哪吒", "賽力斯", "三一重工", "福田汽車", "陝汽重卡", "徐工集團", "宇通客車", "金龍客車", "中通客車", "廈門金旅", "安凱客車", "開沃汽車"]
+  },
+  {
+    title: "地產",
+    iconName: "Building2",
+    partners: ["龍湖", "華潤置地", "碧桂園", "融創", "世茂", "萬科", "中海地產", "招商蛇口", "保利地產", "大唐地產", "恆大地產", "華夏幸福", "大華集團", "合生創展", "榮盛發展", "華僑城", "佳兆業", "時代中國"]
+  },
+  {
+    title: "民航",
+    iconName: "Plane",
+    partners: ["首都機場", "上海機場集團", "白雲機場", "深圳機場", "杭州蕭山國際機場", "四川航空", "河南機場集團", "青島國際機場", "中國東方航空", "中國國際航空", "中國南方航空", "重慶機場"]
+  },
+  {
+    title: "港口",
+    iconName: "Ship",
+    partners: ["天津港", "煙台港", "青島港", "日照港", "廣州港", "寧波舟山港", "廈門港", "大連港"]
+  },
+  {
+    title: "能源",
+    iconName: "Battery",
+    partners: ["中國石油", "中國石化", "殼牌", "中化", "華潤燃氣", "中國燃氣", "港華燃氣", "中國華能", "崑崙能源", "中國華電", "中廣核", "中國電建", "中國大唐", "中國鐵塔"]
+  },
+  {
+    title: "金融",
+    iconName: "Landmark",
+    partners: ["微信支付", "支付寶", "京東", "銀聯", "中國銀行", "平安銀行", "招商銀行", "中國農業銀行", "浦發銀行", "中國民生銀行", "中國建設銀行", "交通銀行"]
+  },
+  {
+    title: "出行",
+    iconName: "Navigation",
+    partners: ["滴滴出行", "高德地圖", "騰訊地圖", "曹操出行", "T3出行", "四維圖新", "嘀嗒出行", "途虎養車"]
+  },
+  {
+    title: "其他",
+    iconName: "MoreHorizontal",
+    partners: ["新華網", "人民網", "正和島", "華為", "新浪", "貨拉拉", "順豐速運", "騰訊網", "頭條", "鳳凰網", "光明網", "中國平安", "CCTV"]
+  }
+];
